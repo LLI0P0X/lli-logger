@@ -10,10 +10,11 @@ wheels/
 
 # Virtual environments
 .venv
+uv.lock
 
 # Secrets
 .env
-secret.py
+secret*
 
 # tests
 temp*

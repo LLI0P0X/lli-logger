@@ -1,9 +1,19 @@
 [project]
 name = "lli-logger"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.1.1"
+description = "nothing here, sorry("
+authors = [{ name = "lliopox"}]
 readme = "README.md"
 requires-python = ">=3.13"
+license = { text = "MIT" }
 dependencies = [
     "loguru>=0.7.3",
 ]
+optional-dependencies = { aio-tg = [
+    "aiohttp>=3",
+], sinc-tg = [
+    "requests>=2",
+]}
+
+[project.urls]
+Homepage = "github.com/LLI0P0X/lli-logger/"
