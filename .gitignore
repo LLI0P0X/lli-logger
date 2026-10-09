@@ -13,12 +13,11 @@ wheels/
 uv.lock
 
 # Secrets
-.env
+.env*
 secret*
 
-# tests
+# temp
 temp*
-tests/
 
 # logs
 log_*
